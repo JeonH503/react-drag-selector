@@ -1,23 +1,124 @@
-import logo from './logo.svg';
-import './App.css';
+import Grid from './component/grid';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Grid>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          1
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          2
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          3
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          4
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+        <div style={{marginRight:20, padding:"15px 20px", border:'1px solid black'}}>
+          15
+        </div>
+      </Grid>
     </div>
   );
 }
